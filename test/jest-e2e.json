@@ -1,0 +1,15 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "rootDir": ".",
+  "testRegex": ".e2e-spec.ts$",
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "transform": {
+    "^.+\\.ts$": ["ts-jest", {
+      "tsconfig": "tsconfig.test.json"
+    }]
+  },
+  "moduleNameMapper": {
+    "^(\\.{1,2}/.*)\\.(js|jsx)$": "$1"
+  }
+}
